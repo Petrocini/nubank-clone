@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="7dp"
+    android:layout_marginBottom="7dp">
+
+    <View
+        android:id="@+id/containerCircle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/container_circle_account_option"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/containerCircle"
+        app:layout_constraintStart_toStartOf="@id/containerCircle"
+        app:layout_constraintEnd_toEndOf="@id/containerCircle"
+        app:layout_constraintBottom_toBottomOf="@id/containerCircle"
+        />
+
+    <TextView
+        android:id="@+id/txtOptionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Area do pix"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/containerCircle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

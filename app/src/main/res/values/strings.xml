@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Nubank Clone</string>
+
+    <string name="txt_username">Olá, Lucas</string>
+    <string name="txt_view_account">Conta</string>
+    <string name="txt_view_coin">R$</string>
+    <string name="txt_account_balance">0,00</string>
+    <string name="txt_my_cards">Meus Cartões</string>
+    <string name="txt_credit_card">Cartão de Crédito</string>
+    <string name="txt_current_invoice">Fatura atual</string>
+    <string name="txt_invoice_value">0,00</string>
+    <string name="txt_available_limit">Límite disponível de R$</string>
+    <string name="txt_split_purchases">Parcelar Compras</string>
+
+</resources>
